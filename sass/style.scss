@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+$body-background-color: rgb(34, 34, 34);
+$header-color: white;
+$padding-header: 20px;
+$fontSize-header: 15px;
+$fontFamily-header: poppinsMedium, sans-serif;
+$width-heading: 20px;
+$a-color: white;
+$fontSize-a: 14px;
+$padding-a: 8px;
+$colorBorder-aHover: rgb(132, 14, 201);
+$color-aHover: white;
+$width-image: 660px;
+$padding-image: 10px;
+$width-paragraph: 400px;
+$width-button: 100px;
+
+body {
+  background-color: $body-background-color;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  color: $header-color;
+  padding: $padding-header;
+  font-size: $fontSize-header;
+  font-family: $fontFamily-header;
+}
+.heading {
+  width: $width-heading;
+}
+a {
+  text-decoration: none;
+  color: $a-color;
+  font-size: $fontSize-a;
+  padding: $padding-a;
+}
+a:hover {
+  color: $color-aHover;
+  border: 1px solid $colorBorder-aHover;
+  transition: 0.3s all;
+}
+
+main {
+  display: flex;
+}
+.newsLatter {
+  color: $a-color;
+  font-family: $fontFamily-header;
+  width: $width-paragraph;
+  padding: $padding-header;
+}
+span {
+  color: $colorBorder-aHover;
+}
+p {
+  font-family: $fontFamily-header;
+  color: $header-color;
+  width: $width-paragraph;
+  line-height: 1.4;
+  padding: $padding-header;
+}
+.image {
+  width: $width-image;
+  padding-right: $padding-image;
+}
+form {
+  padding: $padding-header;
+}
+input {
+  padding: $padding-image;
+  border: 1px solid transparent;
+  border-radius: $padding-header;
+  margin-bottom: $fontSize-header;
+}
+#button {
+  padding: $padding-image;
+  background-color: $colorBorder-aHover;
+  color: $color-aHover;
+  border: 1px solid transparent;
+  border-radius: $padding-header;
+  width: $width-button;
+  cursor: pointer;
+}

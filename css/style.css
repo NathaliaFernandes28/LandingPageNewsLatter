@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(34, 34, 34);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding: 20px;
+  font-size: 15px;
+  font-family: poppinsMedium, sans-serif;
+}
+
+.heading {
+  width: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  padding: 8px;
+}
+
+a:hover {
+  color: white;
+  border: 1px solid rgb(132, 14, 201);
+  transition: 0.3s all;
+}
+
+main {
+  display: flex;
+}
+
+.newsLatter {
+  color: white;
+  font-family: poppinsMedium, sans-serif;
+  width: 400px;
+  padding: 20px;
+}
+
+span {
+  color: rgb(132, 14, 201);
+}
+
+p {
+  font-family: poppinsMedium, sans-serif;
+  color: white;
+  width: 400px;
+  line-height: 1.4;
+  padding: 20px;
+}
+
+.image {
+  width: 660px;
+  padding-right: 10px;
+}
+
+form {
+  padding: 20px;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid transparent;
+  border-radius: 20px;
+  margin-bottom: 15px;
+}
+
+#button {
+  padding: 10px;
+  background-color: rgb(132, 14, 201);
+  color: white;
+  border: 1px solid transparent;
+  border-radius: 20px;
+  width: 100px;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=style.css.map */
